@@ -1,4 +1,4 @@
-# 💻Exercícios em Java
+# 💻 Exercícios em Java
 
 ![Last Commit](https://img.shields.io/github/last-commit/bruizel/java-exercicios)
 ![Languages](https://img.shields.io/github/languages/count/bruizel/java-exercicios)
@@ -11,15 +11,15 @@ Algoritmos em Java feitos durante meus estudos. Cada exercício representa um co
 ## Como executar
 
 1. Clona este repositório:
-   ```bash
-   git clone https://github.com/bruizel/java-exercicios.git
-   ```
-2.	Abre a pasta no VSCode ou IDE da tua preferência
+    ```bash
+    git clone https://github.com/bruizel/java-exercicios.git
+    ```
+2. Abre a pasta no VSCode ou IDE da tua preferência.
 
-3.	Navega até o arquivo .java que quer rodar
+3. Navega até o arquivo `.java` que quer rodar.
 
-4.	Compila e executa pelo terminal:
-    ```bash 
+4. Compila e executa pelo terminal:
+    ```bash
     javac NomeDoArquivo.java
     java NomeDoArquivo
     ```
