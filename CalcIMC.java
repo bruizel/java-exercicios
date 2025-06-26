@@ -3,11 +3,19 @@ import java.util.Scanner;
 public class CalcIMC {
     public static void main (String[] args) {
         var scanner = new Scanner(System.in);
-        System.out.println("Qual seu peso? ");
+
+        // Pede o peso do usuário (em kg)
+        System.out.println("Qual seu peso em kg? ");
         var peso = scanner.nextInt();
-        System.out.println("E qual a sua altura? ");
+
+        // Pede a altura (em metros)
+        System.out.println("E qual a sua altura em metros? ");
         var altura = scanner.nextDouble();
-        var imc = peso/(altura*altura);
+
+        // Calcula o IMC: peso dividido pela altura ao quadrado
+        var imc = peso / (altura * altura);
+
+        // Verifica a faixa do IMC e imprime a classificação correspondente
         if (imc <= 18.5 ) {
             System.out.println("Abaixo do peso");
         } else if (imc <= 24.9) {
